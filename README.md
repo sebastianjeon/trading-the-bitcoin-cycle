@@ -61,21 +61,20 @@ This is research output, not a deployable system.
 ## Repository
 
 ```
-├── notebooks/
-│   └── btc_cycle_model.ipynb      # full pipeline: features → walk-forward → backtest
-├── paper/
-│   └── Trading_the_Bitcoin_Cycle.pdf
+├── btc_cycle_model.ipynb          # full pipeline: features → walk-forward → backtest
+├── Trading_the_Bitcoin_Cycle - Sebastian Jeon.pdf
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
 ## Reproducing
 
 ```bash
-git clone https://github.com/<sebastianjeon>/trading-the-bitcoin-cycle.git
+git clone https://github.com/sebastianjeon/trading-the-bitcoin-cycle.git
 cd trading-the-bitcoin-cycle
 pip install -r requirements.txt
-jupyter lab notebooks/btc_cycle_model.ipynb
+jupyter lab btc_cycle_model.ipynb
 ```
 
 Data is pulled at runtime — no keys required.
