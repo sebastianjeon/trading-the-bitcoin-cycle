@@ -4,8 +4,7 @@
 
 Four XGBoost specifications, one expanding-window walk-forward design, only the feature set changes. Cycle-position features won on accuracy — and the specification with the *highest* accuracy produced the *worst* risk-adjusted returns.
 
-📄 **[Full paper (46 pages)](./paper/Trading_the_Bitcoin_Cycle%20-%20Sebastian%20Jeon.pdf)**
----
+📄 **[Full paper (46 pages)](./paper/Trading_the_Bitcoin_Cycle_Sebastian_Jeon.pdf)**---
 
 ## Headline results
 
